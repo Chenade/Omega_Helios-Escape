@@ -1,0 +1,110 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Index.unity
+    guid: d61c551b12ecbd847b85e7f01fbf9dc6
+  - enabled: 1
+    path: Assets/Scenes/game.unity
+    guid: 80925f81d89b9304991e1c2047cbbd1d
+  - enabled: 1
+    path: Assets/Scenes/01_Planet_solar.unity
+    guid: 6a9501c239ea4534d914f65c01b9f1f3
+  - enabled: 1
+    path: Assets/Scenes/02_Planet_MassDriver_fly.unity
+    guid: e95d6d49b2073834abe05f29f15c07d7
+  - enabled: 1
+    path: Assets/Scenes/03_Planet_MPD.unity
+    guid: 370747c829ad0824f94c334e7dd2e7af
+  - enabled: 1
+    path: Assets/Scenes/04_Planet_NEMP.unity
+    guid: d0c3a8d30b8d8c64d961a43f131fea49
+  - enabled: 1
+    path: Assets/Scenes/05_Planet_Bussard.unity
+    guid: 7aa0a86275b19074f8029e18744002c8
+  - enabled: 1
+    path: Assets/Scenes/06_Planet_Warp.unity
+    guid: fcb36757dca8c314aab9e6dc4544ddd3
+  - enabled: 1
+    path: Assets/MessageSystem/Scenes/dialogue_Solar.unity
+    guid: f02a80f020c0cbe49880433bd1c08d0c
+  - enabled: 1
+    path: Assets/MessageSystem/Scenes/dialogue_MassDriver.unity
+    guid: e22bcef728bae3a469992cb83471de46
+  - enabled: 1
+    path: Assets/MessageSystem/Scenes/dialogue_MPD.unity
+    guid: 87c20ab29f1570344b7fb3173a3f175b
+  - enabled: 1
+    path: Assets/MessageSystem/Scenes/dialogue_NEMP.unity
+    guid: 5d8b1c326d8c08b4faa4b249438333e3
+  - enabled: 1
+    path: Assets/MessageSystem/Scenes/dialogue_Bussard.unity
+    guid: 91f429e8abf62e84f8e006bdcc9d2506
+  - enabled: 1
+    path: Assets/MessageSystem/Scenes/dialogue_WarpDriver.unity
+    guid: accc2b3373e9bed49a4569f153e4164b
+  - enabled: 1
+    path: Assets/Mission/Solar/operate_solarEngine.unity
+    guid: fdb780d5a9d561f448198a9f69b77d7c
+  - enabled: 1
+    path: Assets/Mission/Solar/1_solarEngine.unity
+    guid: 032b85be58f5cf546aa71c72a4fe5160
+  - enabled: 1
+    path: Assets/Mission/MPD/1_MPD.unity
+    guid: 895d43414937d8a4d9da13e98af7d288
+  - enabled: 1
+    path: Assets/Mission/MPD/operate_MPD.unity
+    guid: 9d63dedd06817114886d86e0385406c4
+  - enabled: 1
+    path: Assets/Mission/Bussard Ramjet/1_Bussard Ramjet.unity
+    guid: d70321d71c5f0d34193e74aadb550908
+  - enabled: 1
+    path: Assets/Mission/Bussard Ramjet/2_Bussard Ramjet.unity
+    guid: c238385d6d2ca9d46bffdb3440ca90c5
+  - enabled: 1
+    path: Assets/Mission/Bussard Ramjet/operate_Bussard.unity
+    guid: 11d83888070a89046a1a29620654da62
+  - enabled: 1
+    path: Assets/Mission/NEMP/Scenes/1_NEMP.unity
+    guid: 7ecf853399f0a3e449815041ab1096f3
+  - enabled: 1
+    path: Assets/Mission/NEMP/operate_NEMP.unity
+    guid: 3bd3c5e852a597846aaed7e2d3165522
+  - enabled: 1
+    path: Assets/Mission/Mass Shooter/1_MassShooter.unity
+    guid: 7efe7a0c0352f874686020b8405f1cfb
+  - enabled: 1
+    path: Assets/Mission/Warp/operate_Wrap.unity
+    guid: fedb862c02d5d2641b222f288c2806f1
+  - enabled: 1
+    path: Assets/Mission/Warp/1_Wrap.unity
+    guid: d3b3d572848f65548a935e298b5f69e6
+  - enabled: 1
+    path: Assets/Scenes/Game_Detail.unity
+    guid: 023a01e9f6ad86745a2054c6b0574876
+  - enabled: 1
+    path: Assets/Scenes/Game_Quiz.unity
+    guid: 38789b06849d9974d957a7f020f09f43
+  - enabled: 1
+    path: Assets/Scenes/Game_Over.unity
+    guid: ececc2f994818b445873bd0f715b5f1d
+  - enabled: 1
+    path: Assets/Scenes/02_Launch_MassDriver.unity
+    guid: ddf79fc902f431b4dbedb9368501eb54
+  - enabled: 1
+    path: Assets/MessageSystem/Scenes/dialogue_Result.unity
+    guid: d29c9f60d396ad444abb1f49096935a5
+  - enabled: 1
+    path: Assets/Scenes/game_back.unity
+    guid: 5af9d21f56068b744a1d0330e4bd32eb
+  - enabled: 1
+    path: Assets/Scenes/game_alpha.unity
+    guid: 0b6c1ceaa863cba46b08ce67e56d00d5
+  - enabled: 1
+    path: Assets/MessageSystem/Scenes/dialogue_END.unity
+    guid: 2bb4a51f6d0bdcc44b70b32bd5fe1550
+  m_configObjects: {}
