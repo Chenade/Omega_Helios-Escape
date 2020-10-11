@@ -1,0 +1,16 @@
+Congratulation!![r][r]You got the Bussard ramjet.[r]
+Now it’s time for your departure.[r][lr]
+Though you have got an advanced ramjet, it is still a long way to next destination.[r][lr]
+You have to pass through Kuiper belt and Scattered disc, and to arrive at Termination Shock and Heliopause;then, you will leave the Heliosphere.[r][r]
+Now, you are out of Solar System.[w]
+
+After that, you need to travel in the interstellar space, and pass through the Oort Cloud.[r][lr]
+Your destination, Centauri, which is the nearest star from our Solar System, is about 4.367 lightyear away.[w]
+
+Hold on…[r][lr]
+I just received a message from the pioneer on the Titan, one of the moons of Saturn.[w]
+He found a wormhole near Saturn!!![r][lr]
+He said that he had sent a probe into the wormhole.[r][lr]
+Its position was sent back, and now we know that it is just in the Centauri.[r][lr]
+Your mission is going into the wormhole and tring to figure out what happened there![w]
+Start your engine and go ahead now![wormhole]

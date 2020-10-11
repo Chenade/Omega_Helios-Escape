@@ -1,0 +1,49 @@
+Current planet: Titan              Target engine: Magnetoplasma thruster (MPD)[r][r]
+
+Titan’s composition is dominated by ice and rocks, but it has a thick atmosphere, [r]
+And 95% of the time is in Saturn’s magnetosphere, filled with charged particles and plasma. [r]
+Therefore, we have to come to Titan to collect fuel for the ion engine. [w]
+
+Magnetoplasma thruster [lr]
+The principle of the magnetic plasma thruster is to ionize the gas first [r]
+Then use the electric field force to accelerate the charged ions and eject them, pushing the rocket with its reaction force [r]
+These thrusters have a high specific impulse, which is the ratio of thrust to propellant consumption [w]
+
+Scientists often use xenon gas as a propellant because it is both heavy and inert[r]
+This means that it will not react with any spacecraft materials[r]
+Moreover, the atoms are relatively heavy, so they can provide relatively large thrust compared with other candidate propellants [w]
+
+
+So how does this high specific impulse magnetic plasma thruster work? [lr]
+Magnetoplasmonic thrusters generate ions by adding or removing electrons, thereby ionizing more propellant. [w]
+
+Most thrusters ionize the propellant by electron bombardment [r]
+This is actually the collision process between the negative charge of the high-energy electron and the neutral charge of the propellant atom[r]
+Propellant atoms release electrons, producing positively charged ions [r]
+The positively charged ions of the magneto-plasma thruster are accelerated from the thruster in the form of an ion beam, so that thrust can be generated. [w]
+
+In addition, the magnetic plasma thruster must have a neutralizer and a hollow cathode [lr]
+Emission of the same amount of electrons makes the total charge of the exhaust beam neutral. [r]
+If there is no neutralizer, the spacecraft will generate a negative charge [r]
+Eventually the ions will be pulled back into the interior, which will eventually reduce the thrust and cause the spacecraft to corrode. [w]
+
+And since the spacecraft itself does not need to carry much fuel[r]
+After the total weight is greatly reduced, smaller and economical launch vehicles can be used [r]
+The fuel saved is even more impressive. [w]
+
+Magneto-plasma thrusters can only be used in vacuum environments at present. [r]
+However, after a long time of continuous advancement, it will gain a much faster speed than chemical advancement [r]
+This allows the magneto-plasma thruster to be used in long-distance navigation [w]
+ 
+ 
+
+
+Currently necessary parts are scattered all over the planet[r]
+Next, all you have to do is to collect the parts of the engine[r]
+There may be difficulties in the process, and your ingenuity is needed! [w]
+
+[MPD]
+
+
+
+

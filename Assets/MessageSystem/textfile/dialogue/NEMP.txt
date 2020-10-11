@@ -1,0 +1,39 @@
+Current Planet: Uranus           Target Engine: Nuclear Propulsion (NEMP)[r][r]
+
+Came to Uranus, where the energy from the sun is no longer available, and resources are scarce, [r]
+Therefore, the closer it is to the sun, the more suitable it is.
+We also need to collect some materials for cooling on the cold Uranus! [w]
+
+
+Nuclear pulse propulsion[r]
+A space flight thruster that uses a nuclear explosion as thrust [lr]
+The main materials are uranium-235 and plutonium-239[w]
+
+Nuclear pulse spacecraft uses nuclear fission as a driving energy source[lr]
+The splitting energy comes from the release of neutrons and protons when the nucleus decomposes [r]
+And generate a lot of gamma ray energy [w]
+
+Because the nuclear pulse propulsion at the tail of the spacecraft requires the impact of the big bang [r]
+So a large thick metal plate is needed to absorb the impact of the explosion[r]
+And a series of shock wave absorbers to isolate the crew from the aftershocks after the explosion. [w]
+
+The material to isolate the shock wave and the raw materials of the nuclear material will make the spacecraft very bulky [lr]
+If it’s not for the energy source is very powerful [r]
+The nuclear fission spacecraft will be slower than the solar sail [w]
+
+
+In theory, nuclear pulse propulsion can reach 5~10% of the speed of light [lr]
+It can allow humans to reach the star closest to the solar system within 40 years [r]
+And it's completely feasible in theory [w]
+
+But [r]
+Flying with a bunch of atomic bombs behind [lr]
+It’s really something that needs to be considered [w]
+
+
+
+Currently necessary parts are scattered all over the planet[r]
+Next, all you have to do is to collect the parts of the engine[r]
+There may be difficulties in the process, and your ingenuity is needed! [w]
+[NEMP]
+

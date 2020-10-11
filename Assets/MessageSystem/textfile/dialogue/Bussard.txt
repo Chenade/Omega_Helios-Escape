@@ -1,0 +1,43 @@
+Current planet: Neptune         Target engine: Interstellar ram thruster (Bussard)[r][r]
+
+Coming to Neptune, preparing to try to leave the solar system, you need a source of continuous energy, [r]
+If the Bassad ram thruster is used, [r]
+It can collect trace amounts of hydrogen and hydrogen ions in interstellar space as a source of energy for nuclear fusion. [w]
+
+
+Interstellar ram thruster [r]
+It is a thruster with nuclear fusion as the core concept of power [lr]
+Improved from Bassad ram thruster [w]
+
+The main concept of the Bassard ram thruster is to use a magnetic field to collect nuclear fusion materials and then react[lr]
+However, the raw materials (deuterium, tritium) currently used by humans for nuclear fusion are too low in density to collect in the universe[r]
+So improved the interstellar ram thruster[w]
+
+The same is to use a magnetic field to collect nuclear fusion materials[r]
+In this scheme, the collected hydrogen atoms and ions are used as part of the reaction materials [lr]
+(Hydrogen atoms and ions have higher density in the universe) [w]
+
+Reduce the energy of the proton beam (hydrogen nucleus) to 1 million electron volts [r]
+Use them to bombard targets made of lithium-6 or boron-11 [lr]
+(Compared with hydrogen and hydrogen, the fusion of lithium or boron and protons is easy to occur and the energy released is huge) [w]
+
+When the spacecraft using the interstellar ramjet is about to reach its destination and needs to slow down [r]
+Just turn on the magnetic field without starting the engine [r]
+You can use the resistance formed by the magnetic field to slow down [lr]
+
+Because the spacecraft of the interstellar ram thruster needs to reach 6% of the speed of light to collect enough materials to continue flying [lr]
+So in the process of deceleration, collect raw materials for use when the speed of light is below 6% [w]
+
+The biggest problem with this kind of engine at present is that it needs to reach the speed of light above 6% before it can be used smoothly [lr]
+In addition, the technology of controllable nuclear fusion is also a big problem[w]
+
+
+Currently necessary parts are scattered all over the planet[r]
+Next, all you have to do is to collect the parts of the engine[r]
+There may be difficulties in the process, and your ingenuity is needed! [w]
+[Bussard]
+
+
+
+
+
