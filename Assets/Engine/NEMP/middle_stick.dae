@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <asset>
+    <contributor>
+      <author>Blender User</author>
+      <authoring_tool>Blender 2.90.1 commit date:2020-09-23, commit time:06:43, hash:3e85bb34d0d7</authoring_tool>
+    </contributor>
+    <created>2020-10-01T01:17:00</created>
+    <modified>2020-10-01T01:17:00</modified>
+    <unit name="meter" meter="1"/>
+    <up_axis>Z_UP</up_axis>
+  </asset>
+  <library_images/>
+  <library_geometries>
+    <geometry id="中柱-mesh" name="中柱">
+      <mesh>
+        <source id="中柱-mesh-positions">
+          <float_array id="中柱-mesh-positions-array" count="54">0.6128355 -0.5142301 6 0.6128355 -0.5142301 0 0.8 0 6 0.8 0 0 0.6128355 0.5142301 6 0.6128355 0.5142301 0 0.1389185 0.7878462 6 0.1389185 0.7878462 0 -0.4 0.6928203 6 -0.4 0.6928203 0 -0.7517541 0.2736161 6 -0.7517541 0.2736161 0 -0.7517541 -0.2736161 6 -0.7517541 -0.2736161 0 -0.4 -0.6928203 6 -0.4 -0.6928203 0 0.1389185 -0.7878462 6 0.1389185 -0.7878462 0</float_array>
+          <technique_common>
+            <accessor source="#中柱-mesh-positions-array" count="18" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="中柱-mesh-normals">
+          <float_array id="中柱-mesh-normals-array" count="57">0.9396926 -0.3420203 0 0.9396926 -0.3420202 0 0.9396926 0.3420202 0 0.9396926 0.3420203 0 0.5000001 0.8660254 0 0.5000001 0.8660254 0 -0.1736482 0.9848079 0 -0.7660444 0.6427876 0 -1 0 0 -0.7660444 -0.6427876 0 -0.1736482 -0.9848079 0 0.5000001 -0.8660254 0 0.5000001 -0.8660254 0 0 0 -1 0 0 1 3.19276e-7 0 1 -2.24613e-6 0 1 6.38552e-7 0 1 2.47719e-6 0 1</float_array>
+          <technique_common>
+            <accessor source="#中柱-mesh-normals-array" count="19" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="中柱-mesh-vertices">
+          <input semantic="POSITION" source="#中柱-mesh-positions"/>
+        </vertices>
+        <triangles count="32">
+          <input semantic="VERTEX" source="#中柱-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#中柱-mesh-normals" offset="1"/>
+          <p>0 0 1 0 2 0 2 1 1 1 3 1 2 2 3 2 4 2 4 3 3 3 5 3 4 4 5 4 6 4 6 5 5 5 7 5 6 6 7 6 8 6 8 6 7 6 9 6 8 7 9 7 10 7 10 7 9 7 11 7 10 8 11 8 12 8 12 8 11 8 13 8 12 9 13 9 14 9 14 9 13 9 15 9 14 10 15 10 16 10 16 10 15 10 17 10 16 11 17 11 0 11 0 12 17 12 1 12 3 13 1 13 5 13 5 13 1 13 17 13 5 13 17 13 7 13 7 13 17 13 15 13 7 13 15 13 9 13 9 13 15 13 13 13 9 13 13 13 11 13 2 14 4 14 0 14 0 14 4 14 16 14 16 15 4 15 6 15 16 16 6 16 14 16 14 17 6 17 8 17 14 14 8 14 12 14 12 18 8 18 10 18</p>
+        </triangles>
+      </mesh>
+    </geometry>
+  </library_geometries>
+  <library_visual_scenes>
+    <visual_scene id="Scene" name="Scene">
+      <node id="中柱" name="中柱" type="NODE">
+        <matrix sid="transform">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
+        <instance_geometry url="#中柱-mesh" name="中柱"/>
+      </node>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#Scene"/>
+  </scene>
+</COLLADA>
