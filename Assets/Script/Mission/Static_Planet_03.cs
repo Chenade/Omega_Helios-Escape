@@ -27,6 +27,8 @@ public class Static_Planet_03 : MonoBehaviour
 
     public GameObject panel_end;
     public GameObject MPD_engine;
+
+    public Button massdriver;
    
     public static int current_part = 0;
     public static int count = 0;
@@ -45,6 +47,8 @@ public class Static_Planet_03 : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        massdriver.interactable = false;
+
         count = 0;
         if (!Main_System.MPD_01) { Destroy(MPD_01_GO); count += 20; }
         if (!Main_System.MPD_02) { Destroy(MPD_02_GO); count += 20; }

@@ -22,6 +22,7 @@ public class Game_Quiz : MonoBehaviour
        
         Game_Quiz.index = 0;
         Game_Quiz.max_index = 2;
+        //Main_System.now_quizing = "Solar";
     }
 
     void Update()
@@ -41,9 +42,9 @@ public class Game_Quiz : MonoBehaviour
                 title = "Solar Sail";
                 question = new string[]
                 {
-                    "Which of the following are the main components of the huge panel of the solar sail? \n(A) Solar panel         (B) Thin film lens  \n (C) Sail                 (D) LCD device",
-                    "What is the shortcoming of solar sail? \n(A) The initial speed is slow  \n (B) It needs light to travel \n (C) It consumes a lot of fuel \n (D) It needs to be able to withstand high temperatures",
-                    "Which of the following is the world's first solar sail-powered probe? \n (A)IKAROS  \n (B)IRKOAS  \n (C)IROKAS  \n (D)IKORAS",};
+                    "Q1. Which of the following is the huge panel of the solar sail mainly composed of?  \n(A) Solar panel         \n(B) Thin film lens  \n (C) Sail                \n (D) LCD",
+                    "Q2. The following options are the shortcomings of the solar sail, which is false?  \n(A) The initial speed is slow  \n (B) need Light to travel \n (C) require a lot of fuel  \n (D) be able to withstand high temperatures.",
+                    "Q3. Which of the following is the first solar sail-powered detector in the world?  \n (A)IKAROS  \n (B)IRKOAS  \n (C)IROKAS  \n (D)IKORAS",};
                 answer = new string[] {"B", "C", "A"};
                 break;
 
@@ -51,9 +52,9 @@ public class Game_Quiz : MonoBehaviour
                 title = "Mass Driver";
                 question = new string[]
                 {
-                    "Q1, the principle of the railgun (Railgun), which of the following is wrong? \n (A) Current magnetic effect \n(B) Lorentz force \n(C) Newton's second law of motion \n (D) cold order law",
-                    "Q2, which of the following statements is correct? \n (A) Coilgun has high energy use efficiency \n (B) Railgun is a kinetic energy weapon that directly uses chemical energy\n (C) Maglev train is a kind of electromagnetic force Vehicle \n (D) The upper limit of the G force that humans can bear is about 19G",
-                    "Q3. Regarding the mass projector, which of the following is correct? \n (A) Short launch trajectory \n (B) Wide application range \n (C) Low energy requirement \n (D) NASA used the mass projector to send spacecraft into space" ,""};
+                    "Q1, which is not the principle for rail gun to work ? \n (A) current magnetic effect \n(B)	Laurence Force \n(C) Newton's second law of motion \n (D) Lenz law",
+                    "Q2, which of the following narratives is correct? \n (A) coil gun’s energy-used efficiency is high. \n (B) magnetic rail gun uses chemical energy as momentum.\n (C) maglev train uses electromagnetic force to work. \n (D) The upper limit of G force that humans can withstand is about 19G.",
+                    "Q3, about the mass driver, which of the following is correct? \n (A) the launch orbit is short. \n (B) the launch orbit is short. \n (C) energy demand is small.t \n (D) NASA once sent a spacecraft into space with a mass driver." ,""};
                 answer = new string[] { "D", "C", "B" };
                 break;
 
@@ -61,9 +62,9 @@ public class Game_Quiz : MonoBehaviour
                 title = "NEMP";
                 question = new string[]
                 {
-                    "Q1. What is the principle of nuclear pulse propulsion? \n (A) Nuclear fusion (B) Nuclear fission (C) Light energy (D) Gravity pull",
-                    "Q2. What are the main raw materials for nuclear pulse propulsion? \n (A) Uranium-235, Plutonium-239 (B) Deuterium, Tritium (C) Lithium-6, Boron-11 (D) Hydrogen, Oxygen",
-                    "Q3. Which of the following is not the main disadvantage of nuclear pulse propulsion? \n (A) Overweight (B) Dangerous source of power (C) Passenger safety issues (D) Low feasibility"};
+                    "Q1. Which principle does the main power of nuclear pulse propulsion come from?  \n(A) Nuclear fusion \n(B) Mitosis  \n(C) Light \n(D) Gravity traction",
+                    "Q2. What are the main raw materials for nuclear pulse propulsion? \n(A) Uranium-235, Plutonium-239 \n(B) Deuterium, Tritium \n(C) Lithium-6, Boron-11 \n(D) Hydrogen, Oxygen",
+                    "Q3. Which of the following is not the main disadvantage of NEMP? \n(A) Heavy  \n(B) Power source is hazard \n(C) The safety of passengers  \n(D) Low feasibility"};
                 answer = new string[] { "B", "A", "D" };
                 break;
 
@@ -71,19 +72,19 @@ public class Game_Quiz : MonoBehaviour
                 title = "Bussard Ramjet";
                 question = new string[]
                 {
-                    "Q1. What is the principle of interstellar stamping propulsion? \n (A) Nuclear Fusion (B) Nuclear Fission (C) Light Energy (D) Gravity Pull",
-                    "Q2. Which of the following groups are the main raw materials for interstellar stamping? \n (A) Uranium-235, Plutonium-239 (B) Deuterium, Tritium (C) Lithium-6, Boron-11 (D) Hydrogen, Hydrogen ions \n (A) A, B (B) A, C (C) B, C (D) C, D",
-                    "Q3. Which of the following is not the main dilemma of interstellar stamping? \n (A) Threshold of initial velocity is too high (B) Power source is dangerous (C) Nuclear fusion is not yet controllable"};
+                    "Q1. What principle does the main power of Bussard ramjet propulsion come from?  \n(A) Nuclear fusion \n(B) Mitosis  \n(C) Light \n(D) Gravity traction",
+                    "Q2. Which of the following groups are the main raw materials for Bussard ramjet propulsion? \nA. uranium-235, plutonium-239  B. deuterium, thorium  \nC. lithium-6, boron-11  D. hydrogen, hydrogen ions. \n (A) A, B      (B) A, C       (C) B, C      (D) C, D",
+                    "Q3. Which of the following is not the main dilemma of Bussard ramjet? \n (A) The initial speed needed is too high  \n(B) power source is hazard \n(C) nuclear fusion is not yet manageable \n(D) all of above"};
                 answer = new string[] { "A", "D", "B" };
                 break;
 
             case "MPD":
-                title = "MDP";
+                title = "MPD";
                 question = new string[]
                 {
-                    "Q: What is the current fuel for most ion thrusters? \n (A) Hydrogen (B) Helium (C) Nitrogen (D) Xenon",
-                    "Q: Submit the question, why? \n (A) Easy to obtain (B) Light weight (C) Not easy to react (D) Flammable",
-                    "Q: What are the characteristics of ion thrusters? \n (A) Large thrust (B) Large specific impulse (C) High fuel consumption (D) Can operate in non-vacuum conditions"
+                    "Q1. Which is the fuel of most MPD? \n(A) Hydrogen \n(B) Helium \n(C) Nitrogen \n(D) Xenon",
+                    "Q2. What is the reason for the previous question? \n (A) Easy to obtain \n(B) Light weight \n(C) Is not prone to reaction. \n(D) Flammable",
+                    "Q3. What are the characteristics of MPD? \n (A) Large thrust \n(B) has great specific impulse. \n(C) Fuel consumption is high. \n(D) can operate in non-vacuum situations."
                 };
                 answer = new string[] { "A", "D", "B" };
                 break;
@@ -92,9 +93,9 @@ public class Game_Quiz : MonoBehaviour
                 title = "Warp Drive";
                 question = new string[]
                 {
-                   "Q: Which of the following is the key setting of a warp engine? \n (A) The stretched space at the rear (B) The compressed space at the front (C) The curved space surrounding the spacecraft is cavitation (D) All of the above" ,
-                    "Q: In 2016, what phenomenon did the scientific community prove to increase the possibility of warp navigation? \n (A) Gravity wave (B) Black hole (C) r-ray (D) White hole",
-                    "Q: Do you believe that there will be a speed engine in the future? \n (A) Yes (B) No"
+                   "Q1. Which of the following is the key setting for the warp drive? \n(A) The space expended behind. \n(B) The space compressed in front. \n(C) The space-distorting bubble that surrounds the ship in the middle. \n(D) All of the above" ,
+                   "Q2. What did the scientists confirm in 2016 and prove to be possible to travel with space distortion? \n(A) Gravitational waves. \n(B) Black hole \n(C) r-ray \n(D) White hole",
+                   "Q3. Do you believe there will be a warp drive in the future? \n(A) Yes \n(B) No"
                 };
                 answer = new string[] { "D", "A", "A" };
                 break;

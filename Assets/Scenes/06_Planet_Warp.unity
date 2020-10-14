@@ -11300,6 +11300,7 @@ MonoBehaviour:
   panel_first: {fileID: 1196303207}
   panel_mission: {fileID: 1141084662}
   panel_mission_end: {fileID: 1626795063}
+  massdriver: {fileID: 1617395617}
 --- !u!4 &1395962651
 Transform:
   m_ObjectHideFlags: 0

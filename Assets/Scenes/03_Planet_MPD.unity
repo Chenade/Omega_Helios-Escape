@@ -6296,7 +6296,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &329630603
 RectTransform:
   m_ObjectHideFlags: 0
@@ -24064,6 +24064,7 @@ MonoBehaviour:
   dist_neptune: {fileID: 1961516356}
   panel_end: {fileID: 967882130}
   MPD_engine: {fileID: 0}
+  massdriver: {fileID: 329630605}
 --- !u!4 &1395962651
 Transform:
   m_ObjectHideFlags: 0

@@ -31,6 +31,7 @@ public class Static_Planet_04 : MonoBehaviour
     public static int current_part = 0;
     public static int count = 0;
 
+    public Button massdriver;
     // Start is called before the first frame update
     void Start()
     {
@@ -45,6 +46,8 @@ public class Static_Planet_04 : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        massdriver.interactable = false;
+
         count = 0;
         if (!Main_System.NEMP_01) { Destroy(NEMP_01_GO); count += 20; }
         if (!Main_System.NEMP_02) { Destroy(NEMP_02_GO); count += 20; }

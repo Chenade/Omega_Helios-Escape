@@ -30,6 +30,8 @@ public class Static_Planet_05 : MonoBehaviour
     public static int current_part = 0;
     public static int count = 0;
 
+    public Button massdriver;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -44,6 +46,8 @@ public class Static_Planet_05 : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        massdriver.interactable = false;
+
         count = 0;
         if (!Main_System.Bussard_01) { Destroy(Bussard_01_GO); count += 25; }
         if (!Main_System.Bussard_02) { Destroy(Bussard_02_GO); count += 25; }
