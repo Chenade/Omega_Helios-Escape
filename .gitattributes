@@ -1,1 +1,1 @@
-TemplateData/*.data filter=lfs diff=lfs merge=lfs -text
+WebGL/TemplateData/*.data filter=lfs diff=lfs merge=lfs -text
